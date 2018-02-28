@@ -3,7 +3,6 @@
 //  Antena1
 //
 //  Created by Willian Guedes da Silva Cunha  on 21/02/18.
-//  Copyright © 2018 Poggers Soluções Ageis em TI. All rights reserved.
 //
 
 import Foundation
