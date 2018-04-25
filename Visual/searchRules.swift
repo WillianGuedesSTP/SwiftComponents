@@ -15,9 +15,9 @@ class SearchTools{
      *  #Resumo
      *  Está função deve ser executada dentro do filter de uma lista, onde deverá ser enviado o item da lista(element) e o texto digitado.
      */
-        func searchRules(_ element: String, _ sender: String) -> Bool{
-            var isCorrect: Bool
-            isCorrect = element.lowercased().replacingOccurrences(of: " ", with: "").contains(sender.lowercased().replacingOccurrences(of: " ", with: ""))
-            return isCorrect
-        }
+     func searchRules(_ element: String, _ sender: String) -> Bool{
+          var isCorrect: Bool
+          isCorrect = element.lowercased().replacingOccurrences(of: " ", with: "").contains(sender.lowercased().replacingOccurrences(of: " ", with: ""))
+          return isCorrect
+     }
 }
